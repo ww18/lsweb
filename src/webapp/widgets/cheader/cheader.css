@@ -1,7 +1,7 @@
 :root{
     --headerHeight: 70px;
 }
-.widgets-ydheader{
+.widgets-cheader{
     & .h-70{
         height: var(--headerHeight);
     }

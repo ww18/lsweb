@@ -1,22 +1,3 @@
-.widgets-ydheader .h-70{
-    height: 70px;
-}
-.widgets-ydheader .header-content{
-    line-height: 70px;
-    color: #000;
-    -webkit-box-shadow: 0 0 10px #000;
-            box-shadow: 0 0 10px #000;
-    overflow: hidden;
-}
-.widgets-ydheader .header-content__logo{
-    float: left;
-}
-.widgets-ydheader .header-content__nav{
-    float: right;
-}
-.widgets-ydheader .header-content__nav li{
-    float:left;
-}
 @charset "UTF-8";
 /**
 * @file:      Neat.css
@@ -624,4 +605,42 @@ audio:not([controls]) {
 */
 [draggable] {
   cursor: move;
+}
+.widgets-cheader .h-70{
+    height: 70px;
+}
+.widgets-cheader .header-content{
+    line-height: 70px;
+    color: #000;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+    overflow: hidden;
+}
+.widgets-cheader .header-content__logo{
+    float: left;
+}
+.widgets-cheader .header-content__nav{
+    float: right;
+}
+.widgets-cheader .header-content__nav li{
+    float:left;
+}
+.widgets-cfooter .h-70{
+    height: 70px;
+}
+.widgets-cfooter .footer-content{
+    line-height: 70px;
+    color: #000;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+    overflow: hidden;
+}
+.widgets-cfooter .footer-content__logo{
+    float: left;
+}
+.widgets-cfooter .footer-content__nav{
+    float: right;
+}
+.widgets-cfooter .footer-content__nav li{
+    float:left;
 }

@@ -1,0 +1,22 @@
+:root{
+    --footerHeight: 70px;
+}
+.widgets-cfooter{
+    & .h-70{
+        height: var(--footerHeight);
+    }
+    & .footer-content{
+        line-height: var(--footerHeight);
+        color: #000;
+        box-shadow: 0 0 10px #000;
+        overflow: hidden;
+    }
+    & .footer-content__logo{
+        float: left;
+    }
+    & .footer-content__nav{
+        float: right;
+        & li{float:left;}
+    }
+
+}
