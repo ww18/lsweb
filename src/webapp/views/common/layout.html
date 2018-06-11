@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock  %}</title>
+    <!--inject css-->
     {% block head %}{% endblock  %}
 </head>
-<body>
+<body class="flex-v">
+{% include "../../widgets/cheader/cheader.html"%}
+
 {% block content %}{% endblock  %}
+
+{% include "../../widgets/cfooter/cfooter.html"%}
+
+<!--inject js-->
 {% block scripts %}{% endblock  %}
 </body>
 </html>

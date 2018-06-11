@@ -49,7 +49,7 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 }
 
 // or `awilix-router-core`
-let IndexController = (_dec = (0, _awilixKoa.route)('/'), _dec2 = (0, _awilixKoa.route)('/index.html'), _dec3 = (0, _awilixKoa.GET)(), _dec(_class = _dec2(_class = (_class2 = class IndexController {
+let IndexController = (_dec = (0, _awilixKoa.route)('/'), _dec2 = (0, _awilixKoa.route)('/home'), _dec3 = (0, _awilixKoa.GET)(), _dec(_class = _dec2(_class = (_class2 = class IndexController {
 	constructor({ indexModel }) {
 		this.indexModel = indexModel;
 	}

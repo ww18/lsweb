@@ -31,10 +31,23 @@ for(let item of files){
                 collapseWhitespace: _modeflag,
                 removeAttributeQuotes: _modeflag
             },
+            chunks:[entrykey],
             inject: false
         }));
     }
 }
+
+_entry['common'] = './src/webapp/views/common/common.js';
+_plugins.push(new HtmlWebpackPlugin({
+    filename: '../views/common/layout.html',
+    template: 'src/webapp/views/common/layout.html',
+    minify: {
+        collapseWhitespace: _modeflag,
+        removeAttributeQuotes: _modeflag
+    },
+    chunks:['common','manifest','vendor'],
+    inject: false
+}))
 
 let webpackConfig = {
     entry: _entry,

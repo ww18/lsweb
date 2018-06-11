@@ -12,7 +12,7 @@
 
 import { route, GET, POST, before } from 'awilix-koa' // or `awilix-router-core`
 @route('/')
-@route('/index.html')
+@route('/home')
 export default class IndexController {
 	constructor({ indexModel }) {
 		this.indexModel = indexModel

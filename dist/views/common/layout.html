@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock  %}</title>
+    <link rel="stylesheet" href="/styles/common.bundle.css?v=90a199b5d03ce174ea9b">
     {% block head %}{% endblock  %}
 </head>
-<body>
+<body class="flex-v">
+{% include "../../widgets/cheader/cheader.html"%}
+
 {% block content %}{% endblock  %}
+
+{% include "../../widgets/cfooter/cfooter.html"%}
+
+<script src="/scripts/manifest.bundle.js"></script><script src="/scripts/common.bundle.js"></script>
 {% block scripts %}{% endblock  %}
 </body>
 </html>
