@@ -1,41 +1,3 @@
-.widgets-cheader .h-70{
-    height: 70px;
-}
-.widgets-cheader .header-content{
-    line-height: 70px;
-    color: #000;
-    -webkit-box-shadow: 0 0 10px #000;
-            box-shadow: 0 0 10px #000;
-    overflow: hidden;
-}
-.widgets-cheader .header-content__logo{
-    float: left;
-}
-.widgets-cheader .header-content__nav{
-    float: right;
-}
-.widgets-cheader .header-content__nav li{
-    float:left;
-}
-.widgets-cfooter .h-70{
-    height: 70px;
-}
-.widgets-cfooter .footer-content{
-    line-height: 70px;
-    color: #000;
-    -webkit-box-shadow: 0 0 10px #000;
-            box-shadow: 0 0 10px #000;
-    overflow: hidden;
-}
-.widgets-cfooter .footer-content__logo{
-    float: left;
-}
-.widgets-cfooter .footer-content__nav{
-    float: right;
-}
-.widgets-cfooter .footer-content__nav li{
-    float:left;
-}
 @charset "UTF-8";
 /**
 * @file:      Neat.css
@@ -646,9 +608,9 @@ audio:not([controls]) {
 }
 body{
     background-color: #f8f8f8;
-    color: #333;
-    font-size: 2.24px;
-    font-size: 0.14rem;
+    color: #fff;
+    font-size: 2.88px;
+    font-size: 0.18rem;
 }
 .hide {
     display: none!important;
@@ -670,8 +632,8 @@ body{
     visibility: hidden
 }
 .flex-v { display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; -webkit-box-orient:vertical; -webkit-box-direction:normal; -webkit-flex-direction:column; -moz-box-orient:vertical; -moz-box-direction:normal; -ms-flex-direction:column; flex-direction:column; }
-.flex-h { display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; -webkit-box-orient:horizontal; -webkit-box-direction:normal; -webkit-flex-direction:row; -moz-box-orient:horizontal; -moz-box-direction:normal; -ms-flex-direction:row; flex-direction:row; width:100% }
-.flex-h-center { display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient:horizontal; -webkit-box-direction:normal; -webkit-flex-direction:row; -moz-box-orient:horizontal; -moz-box-direction:normal; -ms-flex-direction:row; flex-direction:row; width:100% }
+.flex-h { display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; -webkit-box-orient:horizontal; -webkit-box-direction:normal; -webkit-flex-direction:row; -moz-box-orient:horizontal; -moz-box-direction:normal; -ms-flex-direction:row; flex-direction:row; }
+.flex-h-center { display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient:horizontal; -webkit-box-direction:normal; -webkit-flex-direction:row; -moz-box-orient:horizontal; -moz-box-direction:normal; -ms-flex-direction:row; flex-direction:row;}
 .flex-item {
     -webkit-box-flex:1;
        -moz-box-flex:1;
@@ -687,4 +649,53 @@ body{
     -webkit-flex-basis:0;
         -ms-flex-preferred-size:0;
             flex-basis:0;
+}
+
+@media screen {
+
+}
+.widgets-cheader .h-70{
+    height: 70px;
+}
+.widgets-cheader .header-content{
+    line-height: 70px;
+    color: #000;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+    overflow: hidden;
+}
+.widgets-cheader .header-content__logo{
+    float: left;
+}
+.widgets-cheader .header-content__nav{
+    float: right;
+}
+.widgets-cheader .header-content__nav li{
+    float:left;
+}
+.widgets-cfooter{
+    background: #2C2D2E;
+    height: 16px;
+    height: 1rem
+
+}
+.widgets-cfooter .footer-content{
+    line-height: 16px;
+    line-height: 1rem;
+    max-width: 224px;
+    max-width: 14rem;
+    overflow: hidden;
+
+}
+.widgets-cfooter .footer-content__logo{
+    float: left;
+
+}
+.widgets-cfooter .footer-content__nav{
+    float: right
+
+}
+.widgets-cfooter .footer-content__nav li{
+    float:left;
+
 }

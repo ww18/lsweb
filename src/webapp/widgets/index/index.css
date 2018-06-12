@@ -1,37 +1,30 @@
+:root{
+    --width: 14rem;
+}
 .index-banner{
     position: relative;
-    height: 108px;
     height: 6.75rem;
-    background: url(/images/1.jpg?v=900ba373c7f2d4ecb3479e2edba937cd) no-repeat center;
+    background: url("images/1.jpg") no-repeat center;
     background-size: cover;
 }
 .index-banner__top{
-    max-width:224px;
-    max-width:14rem;
-    height: 6.4px;
+    max-width:var(--width);
     height: 0.4rem;
     margin: 0 auto;
-    padding: 0 1.6px;
     padding: 0 0.1rem;
-    font-size: 2.56px;
     font-size: 0.16rem;
     border-bottom: 1px solid #8e908c;
 }
 .index-banner__logo{
-    max-width:224px;
-    max-width:14rem;
-    height: 9.6px;
+    max-width:var(--width);
     height: 0.6rem;
     margin: 0 auto;
-    padding: 0 1.6px;
     padding: 0 0.1rem;
 }
 .index-banner__logo h1{
-    font-size: 3.2px;
     font-size: 0.2rem;
 }
 .index-banner__nav li{
     float: left;
-    padding: 0 3.2px;
     padding: 0 0.2rem;
 }

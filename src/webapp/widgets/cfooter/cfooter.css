@@ -1,14 +1,14 @@
 :root{
-    --footerHeight: 70px;
+    --footerHeight: 1rem;
+    --width: 14rem;
 }
+
 .widgets-cfooter{
-    & .h-70{
-        height: var(--footerHeight);
-    }
+    background: #2C2D2E;
+    height: var(--footerHeight);
     & .footer-content{
         line-height: var(--footerHeight);
-        color: #000;
-        box-shadow: 0 0 10px #000;
+        max-width: var(--width);
         overflow: hidden;
     }
     & .footer-content__logo{

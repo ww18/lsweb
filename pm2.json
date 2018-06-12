@@ -2,6 +2,6 @@
   "name"        : "worker",
   "script"      : "dist/app.js",
   "watch"       : true,
-  "instances"  : "max",
+  "instances"  : "1",
   "exec_mode"  : "cluster"
 }

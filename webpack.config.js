@@ -104,6 +104,13 @@ let webpackConfig = {
                         }
                     },"postcss-loader"]
                 })
+            },
+            {
+                test: /\.(png|jpe?g|gif|svg)(\?\S*)?$/,
+                loader: 'file-loader',
+                query: {
+                    name: 'images/[name].[ext]?v=[hash]'
+                }
             }
         ]
     },

@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <title>{% block title %}{% endblock  %}</title>
-    <link rel="stylesheet" href="/styles/common.bundle.css?v=90a199b5d03ce174ea9b">
+    <link rel="stylesheet" href="/styles/common.bundle.css?v=739ae2441b7bd821f0a1">
     {% block head %}{% endblock  %}
+    <script>
+        init();
+        window.onresize = init;
+        function init(){
+            document.documentElement.style.fontSize =
+                    document.documentElement.clientWidth / 13.3 + 'px';
+            console.log(document.documentElement.clientWidth);
+        }
+    </script>
 </head>
 <body class="flex-v">
-{% include "../../widgets/cheader/cheader.html"%}
+<!--{% include "../../widgets/cheader/cheader.html"%}-->
 
 {% block content %}{% endblock  %}
 

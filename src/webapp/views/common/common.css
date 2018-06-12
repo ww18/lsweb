@@ -1,9 +1,12 @@
 @import "neat.css";
+:root{
+    --width: 14rem;
+}
 
 body{
     background-color: #f8f8f8;
-    color: #333;
-    font-size: 0.14rem;
+    color: #fff;
+    font-size: 0.18rem;
 }
 .hide {
     display: none!important;
@@ -25,12 +28,16 @@ body{
     visibility: hidden
 }
 .flex-v { display:flex; flex-direction:column; }
-.flex-h { display:flex; flex-direction:row; width:100% }
-.flex-h-center { display:flex; align-items: center; flex-direction:row; width:100% }
+.flex-h { display:flex; flex-direction:row; }
+.flex-h-center { display:flex; align-items: center; flex-direction:row;}
 .flex-item {
     flex:1;
     -webkit-flex:1;
     flex-grow:1;
     flex-shrink:1;
     flex-basis:0;
+}
+
+@media screen {
+
 }

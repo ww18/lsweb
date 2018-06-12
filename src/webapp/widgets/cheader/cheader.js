@@ -1,7 +1,7 @@
 /**
  * Created by ww on 2018/5/28.
  */
-require('./cheader.css');
+import './cheader.css';
 const cheader = {
     init(){
         console.log('common header init');

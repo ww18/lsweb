@@ -42,7 +42,7 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/**\n * Created by ww on 2018/5/28.\n */\n__webpack_require__(/*! ./cfooter.css */ \"./src/webapp/widgets/cfooter/cfooter.css\");\nconst cfooter = {\n    init() {\n        console.log('common footer init');\n    }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (cfooter);\n\n//# sourceURL=webpack:///./src/webapp/widgets/cfooter/cfooter.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cfooter_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cfooter.css */ \"./src/webapp/widgets/cfooter/cfooter.css\");\n/* harmony import */ var _cfooter_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_cfooter_css__WEBPACK_IMPORTED_MODULE_0__);\n/**\n * Created by ww on 2018/5/28.\n */\n\nconst cfooter = {\n    init() {\n        console.log('common footer init');\n    }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (cfooter);\n\n//# sourceURL=webpack:///./src/webapp/widgets/cfooter/cfooter.js?");
 
 /***/ }),
 
@@ -65,8 +65,8 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/**\n * Created by ww on 2018/5/28.\n */\n__webpack_require__(/*! ./cheader.css */ \"./src/webapp/widgets/cheader/cheader.css\");\nconst cheader = {\n    init() {\n        console.log('common header init');\n    }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (cheader);\n\n//# sourceURL=webpack:///./src/webapp/widgets/cheader/cheader.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cheader_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cheader.css */ \"./src/webapp/widgets/cheader/cheader.css\");\n/* harmony import */ var _cheader_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_cheader_css__WEBPACK_IMPORTED_MODULE_0__);\n/**\n * Created by ww on 2018/5/28.\n */\n\nconst cheader = {\n    init() {\n        console.log('common header init');\n    }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (cheader);\n\n//# sourceURL=webpack:///./src/webapp/widgets/cheader/cheader.js?");
 
 /***/ })
 
-},[["./src/webapp/views/common/common.js","manifest"]]]);
+},[["./src/webapp/views/common/common.js","manifest","vendor"]]]);

@@ -1,0 +1,58 @@
+[2018-06-12T15:02:13.298] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.ret.load (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/loaders/filesystem.js:55:15)
+    at exports.Swig.compileFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:694:31)
+    at Object.eval [as tpl] (eval at precompile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:497:13), <anonymous>:13:18)
+    at compiled (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:618:18)
+    at /Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:558:20
+    at /Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:689:9
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html' }
+[2018-06-12T15:02:18.512] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.ret.load (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/loaders/filesystem.js:55:15)
+    at exports.Swig.compileFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:694:31)
+    at Object.eval [as tpl] (eval at precompile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:497:13), <anonymous>:13:18)
+    at compiled (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:618:18)
+    at /Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:558:20
+    at exports.Swig.compileFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:668:9)
+    at renderFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:549:12)
+    at eval (eval at thenify (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_thenify@3.3.0@thenify/index.js:17:10), <anonymous>:10:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html' }
+[2018-06-12T15:02:39.163] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.ret.load (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/loaders/filesystem.js:55:15)
+    at exports.Swig.compileFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:694:31)
+    at Object.eval [as tpl] (eval at precompile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:497:13), <anonymous>:13:18)
+    at compiled (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:618:18)
+    at /Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:558:20
+    at exports.Swig.compileFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:668:9)
+    at renderFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:549:12)
+    at eval (eval at thenify (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_thenify@3.3.0@thenify/index.js:17:10), <anonymous>:10:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html' }
+[2018-06-12T15:03:01.900] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.ret.load (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/loaders/filesystem.js:55:15)
+    at exports.Swig.compileFile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:694:31)
+    at Object.eval [as tpl] (eval at precompile (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:497:13), <anonymous>:13:18)
+    at compiled (/Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:618:18)
+    at /Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:558:20
+    at /Volumes/D/liwenwen/lvshi/lsweb/node_modules/_swig-templates@2.0.2@swig-templates/lib/swig.js:689:9
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Volumes/D/liwenwen/lvshi/lsweb/dist/views/widgets/index/index.html' }
